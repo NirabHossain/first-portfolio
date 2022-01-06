@@ -1,0 +1,148 @@
+body{
+    font-family: 'Lora', serif;
+}
+header{
+    position: fixed;
+    right: 0;
+    height: 400px;
+}
+h5:hover{
+    background-color: lightsalmon;
+    color: blue;
+    border: 5px 8px;
+
+}
+h5{
+    font-size: larger;
+    float: right;
+    /* text-align: right; */
+    padding:0 20px 15px 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+section{
+    clear: left;
+}
+
+div{
+    margin: 80px 0;
+}
+
+h1{
+    font-size: 40px;
+}
+.halved{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+    float: left;
+    
+}
+.halved img{
+    width: 100%;
+}
+.tripled img{
+    width: 100%;
+}
+.highlight{
+    color: tomato;
+}
+.butt{
+    background: rgb(190, 77, 49);;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.tripled{
+    
+    
+    border-radius: 20px;
+    width: 25%;
+    padding-left: 2%;
+    margin-left: 5%;
+    float: left;
+    box-shadow: 10px 10px 20px gray;
+    height: 80%;
+    margin-bottom: 50px;
+
+}
+.green{
+    background-color: #c8e0c9;
+}
+.pink{
+    background-color: #ecdaeb;
+}
+.blue{
+    background-color: #a4c3cc;
+}
+.project{
+    padding: 50px 0;
+    background-color: rgba(211, 211, 211, 0.267);
+    height: 550px;
+}
+
+
+.extra-class{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 100px 50px;
+    display: block;
+    background-image: url("images/shapes/shape-2.png");
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    border-radius: 50px;
+    width: 50%;  
+}
+.pos1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+}
+.pos2{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
+.last-section p{
+    clear: left;
+    text-align: center;
+}
+#vertical-line{
+    border-left: 7px solid;
+    padding: 3px;
+    border-image: linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+}
+footer{
+    padding: 20px 0;
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+}
+
+@media (max-width: 700px){
+    h5{
+        clear: both;
+        padding: 0;
+        margin: 0;
+    }
+    .tripled,.halved{
+        clear: left;        
+        width: 70%;
+    }
+    .inquire div h2{
+        font-size: small;
+
+    }
+}
